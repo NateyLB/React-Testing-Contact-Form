@@ -7,7 +7,7 @@ const ContactForm = () => {
     mode: "onBlur"
   });
 
-  
+
   const onSubmit = event => {
     event.preventDefault();
     const newData={...data};
